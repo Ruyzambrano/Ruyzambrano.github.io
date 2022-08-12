@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louise Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    </head>
+<body>
+
+<!--- Banner --->
+    
+    <section class="banner">
+        <nav>
+            <a href="index.html"><img src="Images/Cat.jpg" alt="LOGO"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="therapies.html">Therapies</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>This is the title of your practice</h1>    
+    <p>The fantastic psychology dog will cure you 100% of the  time, no questions asked. <br>He can now do home visits (only if you have carptets though)</p>
+    <a class="hero-btn" href="contact.html">Book an appointment with us!</a>
+        </div>
+        
+</section>
+    
+
+    <!--- About You --->
+    
+<section class="about">
+    <h1>About Louise</h1>
+    <p>Who are you? <br> Make this short, theres another section in the about us part.</p>
+    </section>    
+
+<!--- Products --->
+
+<section class="product">
+        <h1>About the Therapies</h1>
+        <p>Add some information about the product/person/you</p>
+    
+    
+    <div class="row">
+        <div class="row1">
+            <h3>Therapy 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="row1">
+            <h3>Therapy 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="row1">
+            <h3>Therapy 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        </div>
+    </section>
+<section>
+ <div class="row">
+        <div class="product-col">
+            <img src="Images/Field.jpg">
+            <div class="layer">
+            <h3>Location 1</h3>
+        </div>
+        </div>
+        <div class="product-col">
+            <img src="Images/Griffin.jpg">
+            <div class="layer">
+            <h3>Location 2</h3>
+        </div>
+        </div>
+        <div class="product-col">
+            <img src="Images/Logo.jpg" id="vertical">
+            <div class="layer">
+            <h3>Location 3</h3>
+        </div>
+        </div>
+    </div>
+    </section>
+    
+
+<!--- Reviews --->
+    
+<section class="reviews">
+    <h1>Reviews</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    
+    
+    <div class="row">
+            <div class="reviews-col">
+            <h4>Ruy Z says:</h4>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <p class="review"> 
+            This review is definitely real and I think its the best thing ever.</p>
+           
+        </div>     
+         
+            <div class="reviews-col">
+            <h4>Michael B says:</h4>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <p class="review"> 
+            Everything Ruy said was right! I'm not Lou's brother.</p>
+            
+        </div>  
+    </div>
+</section>
+    
+<!--- Call to Action --->
+
+<section class="cta">
+    <h1><a href="contact.html" class="hero-btn">Book an appointment now</a></h1>
+    </section>
+
+<!--- Footer --->
+
+<section class="footer">
+    <h4>Your Name</h4>
+    <p>Your address</p>
+    
+<div class="icons">
+    <a href=""><i class="fa fa-facebook"></i></a>
+    <a href=""><i class="fa fa-twitter"></i></a>
+    <a href=""><i class="fa fa-instagram"></i></a>
+    <a href=""><i class="fa fa-linkedin"></i></a>
+</div>
+</section>
+
+<!----JavaScript for Toggle----> 
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>

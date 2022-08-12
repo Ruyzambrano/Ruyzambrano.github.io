@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louise Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    </head>
+<body>
+
+<!--- Banner --->
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/Cat.jpg" alt="LOGO"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="therapies.html">Therapies</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>About Us</h1>    
+        
+</section>
+    
+
+    <!--- About Us Content --->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are a new and amazing new practice</h1>
+            <p>An in-depth description of what you do, where you studied. All the stuff that people want to know.</p>
+            <a href="contact.html" class="hero-btn blue-btn">Book an appointment</a>
+        </div>
+        <div class="about-col">
+            <img src="Images/LYING%20CAT.jpg" alt="A picture of Louise">
+        </div>
+    </div>
+    
+    </section>
+    
+   
+<!--- Products --->
+
+
+<!--- Reviews --->
+    
+
+    
+<!--- Call to Action --->
+
+
+<!--- Footer --->
+
+<section class="footer">
+    <h4>Your Name</h4>
+    <p>Your address</p>
+    
+<div class="icons">
+    <a href=""><i class="fa fa-facebook"></i></a>
+    <a href=""><i class="fa fa-twitter"></i></a>
+    <a href=""><i class="fa fa-instagram"></i></a>
+    <a href=""><i class="fa fa-linkedin"></i></a>
+</div>
+</section>
+
+<!----JavaScript for Toggle----> 
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>
