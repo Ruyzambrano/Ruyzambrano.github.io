@@ -352,6 +352,17 @@ h3{
     padding: 10px;
     width: 200px;
 }
+.about-col a{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    width: 200px;
+    margin-top: 25px;
+}
 
 
 /* --- Vertical Photos ---*/
