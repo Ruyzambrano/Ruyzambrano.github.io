@@ -115,6 +115,9 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
+    nav .fa-bars{
+        z-index: 1;
+    }
 }
 
 /*--- Course ---*/
@@ -212,6 +215,11 @@ h3{
 .layer:hover h3{
     bottom: 49%;
     opacity: 1;
+}
+@media(max-width: 700px){
+    .product-col img{
+        width: 90%;
+    }
 }
 
 /*--- Reviews ---*/
